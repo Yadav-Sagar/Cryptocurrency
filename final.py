@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 import statsmodels.tsa.api as smt
 import statsmodels.formula.api as smf
-from statsmodels.tsa.arima.model import ARIMA  
+from statsmodels.tsa.arima_model import ARIMA  
 from statsmodels.tsa.stattools import adfuller
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error, explained_variance_score, r2_score 

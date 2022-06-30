@@ -33,7 +33,7 @@ from tensorflow.keras.layers import LSTM
 
 
 
-hist=pd.read_csv(r'C:\Users\akash\Desktop\Python project\Notes\hist.csv')
+hist=pd.read_csv('hist.csv')
 st.title('Welcome')
 st.write("""
 # Here you will find the results of Prediction of Bitcoin Prices Usings Different Models
@@ -46,7 +46,7 @@ with col1:
     st.write("")
 
 with col2:
-    file_ = open(r"C:\Users\akash\Desktop\Python project\Notes\giffy.gif", "rb")
+    file_ = open("giffy.gif", "rb")
     contents = file_.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file_.close()

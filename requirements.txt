@@ -3,9 +3,18 @@ plotly ==5.8.2
 matplotlib ==3.4.3
 scikit_learn
 tensorflow ==2.9.1
-numpy 
+numpy ==1.21.4 
 pandas ==1.3.4
 Keras ==2.9.0
 sklearn
 statsmodels ==0.12.2
-python == 3.9
+platfromdirs==2.4.0
+PyJWT==2.0.0
+pyliny==2.12.2
+pytz==2020.1
+tenacity==8.0.1
+uuid==1.30
+virtualenv=20.10.0
+xlrd==2.0.1
+zope.interface==5.4.0
+gunicorn

@@ -34,7 +34,7 @@ from tensorflow.keras.layers import LSTM
 
 
 hist=pd.read_csv('hist.csv')
-st.title('Welcome')
+#st.title('Welcome')
 st.write("""
 # Here you will find the results of Prediction of Bitcoin Prices Usings Different Models
 # """)

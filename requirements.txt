@@ -8,3 +8,4 @@ pandas ==1.3.4
 Keras ==2.9.0
 sklearn
 statsmodels ==0.12.2
+python == 3.9
